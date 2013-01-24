@@ -1,0 +1,55 @@
+algoritmo teste
+var
+  
+  funcao teste( var i : inteiro; ) : inteiro
+  inicio
+    c <- d + f
+  fimfuncao
+
+  a,b,c : inteiro;  
+  a : vetor [1..10] de real;
+  b : vetor [10..20,10..20] de inteiro;
+
+
+inicio
+  teste(i)
+  q <- 1 + 2
+  a <- raizq(4)
+  a <- (1+2)
+
+  c <- b[1]
+  c <- b[1][1]
+
+  se (1 = 1) entao 
+    a <- b
+  fimse
+
+  se (a = b) entao
+    a <- b + a
+  senao
+      a <- raizq(4)
+  fimse
+
+
+
+  para i de (1+1) ate (2+2) faca 
+    a <- sen(b)
+  fimpara
+
+
+  
+  enquanto (a > b) faca
+    a <- a - 1
+    b <- (b / 2)
+  fimenquanto
+
+
+  repita 
+    a <- b
+    a <- (2 + 2 + 2 - 4)
+  ate (a < 1000)
+  
+
+  b <- (b / 2)
+
+fimalgoritmo
